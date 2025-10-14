@@ -1,0 +1,40 @@
+# PUBLIC MIRROR IGNORE (GitHub)
+# -----------------------------
+
+# --- Data directories ---
+data_raw/
+data_interim/
+data_processed/
+
+# --- Model checkpoints & results ---
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+models/
+results/
+logs/
+*.log
+
+# --- Private notebooks ---
+notebooks/private/
+
+# --- Calibration, filters & training code ---
+src/filters/
+src/training/
+src/private/
+
+# --- Evidence (keep only proofs) ---
+ip_evidence/*.txt
+ip_evidence/*.sha256
+!ip_evidence/*.ots
+!ip_evidence/AUTHORSHIP_LOG.md
+
+# --- Environment / system files ---
+.env
+*.env
+*.bak
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

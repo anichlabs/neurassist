@@ -1,3 +1,5 @@
+ea3bbc83d8c58a6c30e40f3e72a503509d655d7b Tue Oct 14 15:56:33 2025 +0100 Commit the configuration between GitHub and Codeberg (public / Private)
+3fe8f186a9d67e3a3b3f214a4e83437ad6fb919d Tue Oct 14 15:36:52 2025 +0100 Initial commit with secure structure and authorship protection scripts
 3345fbe1380df4495531678fa40d044c76bb2f5b Mon Oct 13 21:23:21 2025 +0100 First Commit to Codeberg
-Repo: https://codeberg.org/chrisanich/neurassist.git
+Repo: git@codeberg.org:anichlabs/neurassist.git
 Branch: main
