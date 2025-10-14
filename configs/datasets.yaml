@@ -1,0 +1,21 @@
+# configs/datasets.yaml
+# Central registry of dataset paths and sampling targets.
+# Edit only the paths to point to local copies of the datasets.
+# All subsequent scripts will read from this file.
+
+eeg:
+  physionet_eegmmidb:
+    local_path: "data_raw/eeg/physionet_eegmmidb"
+    target_sampling_hz: 125
+    channels_keep: ["C3", "Cz", "C4", "FC3", "FC4", "CP3", "CP4"]
+
+  bnci_002_2014:
+    local_path: "data_raw/eeg/bnci_002_2014"
+    target_sampling_hz: 125
+    channels_keep: ["C3", "Cz", "C4", "FC3", "FC4", "CP3", "CP4"]
+
+emg:
+  ninapro_db2:
+    local_path: "data_raw/emg/ninapro_db2"
+    target_sampling_hz: 250
+    channels_keep: ["forearm_flexors", "forearm_extensors", "biceps_brachii", "triceps_brachii"]
