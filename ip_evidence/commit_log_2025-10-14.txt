@@ -1,3 +1,6 @@
+e7dea3779d1eaf644ba55f04bd4894a3e507a008 Tue Oct 14 16:38:33 2025 +0100 Updating LICENCE: GNU AFFERO GENERAL PUBLIC LICENSE. Version 3, 19 November 2007
+cb1c126274d33165314b467ed3ceb32e78432d79 Tue Oct 14 16:31:49 2025 +0100 Create README.md header showing verification and open-source ethics.
+385d86645c68c055b3ad0edaca38f838df3741d5 Tue Oct 14 16:18:40 2025 +0100 Add log of commit to the /ip_evidence folder.
 ea3bbc83d8c58a6c30e40f3e72a503509d655d7b Tue Oct 14 15:56:33 2025 +0100 Commit the configuration between GitHub and Codeberg (public / Private)
 3fe8f186a9d67e3a3b3f214a4e83437ad6fb919d Tue Oct 14 15:36:52 2025 +0100 Initial commit with secure structure and authorship protection scripts
 3345fbe1380df4495531678fa40d044c76bb2f5b Mon Oct 13 21:23:21 2025 +0100 First Commit to Codeberg
