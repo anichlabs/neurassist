@@ -4,7 +4,7 @@ set -e
 EVIDENCE_DIR="ip_evidence"
 LOG_FILE="${EVIDENCE_DIR}/AUTHORSHIP_LOG.md"
 
-echo "🔍 Verifying all OpenTimestamps proofs in ${EVIDENCE_DIR}..."
+echo "   Verifying all OpenTimestamps proofs in ${EVIDENCE_DIR}..."
 
 # Ensure the log file exists
 if [ ! -f "$LOG_FILE" ]; then
@@ -19,7 +19,7 @@ for ots_file in ${EVIDENCE_DIR}/*.ots; do
     sha_file="${EVIDENCE_DIR}/${base_name}"
     date_label=$(echo "$base_name" | grep -Eo '[0-9]{4}-[0-9]{2}-[0-9]{2}' || echo "unknown")
 
-    echo "→ Verifying ${ots_file} ..."
+    echo "   Verifying ${ots_file} ..."
     VERIFY_OUTPUT=$(ots verify "$ots_file" 2>&1 || true)
     STATUS="Pending"
 
@@ -42,4 +42,4 @@ for ots_file in ${EVIDENCE_DIR}/*.ots; do
     echo "   ${STATUS}: logged."
 done
 
-echo "Verification complete. Log updated at ${LOG_FILE}"
+echo "   Verification complete. Log updated at ${LOG_FILE}"
