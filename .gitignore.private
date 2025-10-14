@@ -1,0 +1,15 @@
+# =============================
+# PRIVATE IGNORE (Codeberg)
+# =============================
+
+# --- Only ignore OS and Python cache files ---
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# --- Temporary logs (can be ignored if large) ---
+*.log
+*.bak
+
+# Everything else (datasets, filters, models) is tracked on purpose
