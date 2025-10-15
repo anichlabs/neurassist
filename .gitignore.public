@@ -6,6 +6,17 @@ data_raw/
 data_interim/
 data_processed/
 
+# --- Explicit dataset protection ---
+data_raw/eeg/
+data_raw/emg/
+*.mat
+*.edf
+*.zip
+*.tar.gz
+*.csv
+*.npy
+*.npz
+
 # --- Model checkpoints & results ---
 *.pt
 *.pth
