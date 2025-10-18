@@ -14,7 +14,17 @@ eeg:
     target_sampling_hz: 125
     channels_keep: ["C3", "Cz", "C4", "FC3", "FC4", "CP3", "CP4"]
 
+  milimbeeg_upper_lower_limb:
+    local_path: "data_raw/eeg/milimbeeg_upper_lower_limb"
+    target_sampling_hz: 125
+    channels_keep: ["C3", "Cz", "C4", "FC3", "FC4", "CP3", "CP4"]
+
 emg:
+  ninapro_db1:
+    local_path: "data_raw/emg/ninapro_db1"
+    target_sampling_hz: 200
+    channels_keep: ["forearm_flexors", "forearm_extensors"]
+
   ninapro_db2:
     local_path: "data_raw/emg/ninapro_db2"
     target_sampling_hz: 250
